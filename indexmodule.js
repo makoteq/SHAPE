@@ -13,7 +13,7 @@ integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00
 <style>\
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700&display=swap");\
 </style>\
-<title>This side belongs to'+name+'</title>\
+<title>This webside belongs to '+name+'</title>\
 </head>\
 <body>\
 <div class="wrapper">\

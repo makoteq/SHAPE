@@ -9,7 +9,7 @@ module.exports = {
 
     let text = require('./indexmodule.js')
     let name = 'maciek';
-    let description = 'elo 320'
+    let description = ''
     let isfacebook = 'none';
     let facebooklink = 'https://www.facebook.com/';
     let isinstagram = 'none';
@@ -51,18 +51,18 @@ module.exports = {
 
 
     function copy() {
-      mkdirp('./portfolia/' + name + ' portfolio', function (err) {
+      mkdirp('./' + name + ' portfolio', function (err) {
         if (err) console.error(err)
         else {
-          fs.writeFile('./portfolia/' + name + ' portfolio/index.html', text.site(name, description, isfacebook, facebooklink, isinstagram, instagramlink, isgithub, githublink),
+          fs.writeFile('./' + name + ' portfolio/index.html', text.site(name, description, isfacebook, facebooklink, isinstagram, instagramlink, isgithub, githublink),
             function (err) {
               if (err) throw err;
-              console.log(logSymbols.success,'Saved! ( ͡° ͜ʖ ͡°)');
+              console.log(logSymbols.success,'Saved! Your site has been saved in'+chalk.magenta(' '+name+' portfolio')+' directory  ( ͡° ͜ʖ ͡°)');
             });
-          fs.copyFile('./Desktop.png', './portfolia/' + name + ' portfolio/Desktop.png', (err) => {
+          fs.copyFile('./Desktop.png', name + ' portfolio/Desktop.png', (err) => {
             if (err) throw err;
           });
-          fs.copyFile('./mincss/main.css', './portfolia/' + name + ' portfolio/main.css', (err) => {
+          fs.copyFile('./mincss/main.css',  name + ' portfolio/main.css', (err) => {
             if (err) throw err;
           });
         }
