@@ -1,6 +1,6 @@
 module.exports = {
-    site: function(name,description) {
-return '\<!DOCTYPE html>\
+    site: function(name,description,isfacebook,facebooklink,isinstagram,instagramlink,isgithub,githublink) {
+return '<!DOCTYPE html>\
 <html lang="en">\
 <head>\
 <meta charset="UTF-8" />\
@@ -23,13 +23,12 @@ integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00
 '+description+'\
 </p>\
 <div class="con_icons">\
-<i style="display:" class="fab fa-facebook-square"></i>\
-<i  style="display:"  class="fab fa-instagram"></i>\
-<i  style="display:"  class="fab fa-github"></i>\
+<a href="'+facebooklink+'" target="_blank"><i style="display:'+isfacebook+'" class="fab fa-facebook-square"></i></a>\
+<a href="'+instagramlink+'" target="_blank"> <i style="display:'+isinstagram+'" class="fab fa-instagram"></i></a>\
+<a href="'+githublink+'" target="_blank"><i style="display:'+isgithub+'" class="fab fa-github"></i>\
 </div>\
 </div>\
 </div>\
 </body>\
-</html>'
-}
+</html>'}
 }
