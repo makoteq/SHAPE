@@ -20,7 +20,6 @@ module.exports = {
       input: process.stdin,
       output: process.stdout
     });
-
     rl.question(chalk.green(logSymbols.warning,'Please enter your name: '), (answer1) => {
       rl.question(chalk.magenta('Please type something about you : '), (answer2) => {
         rl.question(chalk.green(logSymbols.warning,'Do you want add Facebook? [if yes then write link to your account!]\n-'), (isFb) => {
