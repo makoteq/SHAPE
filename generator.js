@@ -61,9 +61,6 @@ module.exports = {
           fs.copyFile('./Desktop.png', name + ' portfolio/Desktop.png', (err) => {
             if (err) throw err;
           });
-          fs.copyFile('./mincss/main.css',  name + ' portfolio/main.css', (err) => {
-            if (err) throw err;
-          });
         }
       });
 

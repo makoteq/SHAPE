@@ -13,6 +13,18 @@ integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00
 <style>\
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700&display=swap");\
 </style>\
+<style>\
+body{font-family:"Source Sans Pro",sans-serif;margin:0}a{text-decoration:none;color:#000}\
+.wrapper{background-image:url(Desktop.png);background-size:cover;height:100vh;width:100vw;text-align:center}\
+.header{font-family:"Source Sans Pro ",sans-serif;\
+font-size:5em;font-weight:700;margin-bottom:20px}.description{color:#585858;\
+font-weight:700;width:80vw;margin:0 auto}.con{position:absolute;top:50%;transform:translateY(-50%);width:100vw;text-align:center}\
+.con_icons{margin:20px;height:100px}\
+i:nth-of-type(1){font-size:4em;margin:10px;transition:.2s linear}i:nth-of-type(2){font-size:4em;\
+margin:10px;transition:.2s linear}\
+i:nth-of-type(3){font-size:4em;margin:10px;transition:.2s linear}i{cursor:pointer}\
+i:hover{transform:scale(1.5)}\
+</style>\
 <title>This webside belongs to '+name+'</title>\
 </head>\
 <body>\
