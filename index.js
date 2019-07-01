@@ -15,7 +15,7 @@ if (myArgs[0] == 'create') {
     });
   };
   
-  download('https://raw.githubusercontent.com/makoteq/SHAPE/master/scree.PNG', 'Desktop.png', function(){
+  download('https://raw.githubusercontent.com/makoteq/SHAPE/master/Desktop.png', 'Desktop.png', function(){
     generator.create();
   });
 } else console.log(logSymbols.success, chalk.green('Welcome in SHAPE'));
