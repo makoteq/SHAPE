@@ -1,5 +1,5 @@
 module.exports = {
-    site: function(name,description,theme,themeColor,isfacebook,facebooklink,isinstagram,instagramlink,isgithub,githublink) {
+    site: function(name,description,isfacebook,facebooklink,isinstagram,instagramlink,isgithub,githublink) {
 return '<!DOCTYPE html>\
 <html lang="en">\
 <head>\
@@ -14,7 +14,7 @@ integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00
 </style>\
 <style>\
 body{font-family:"Source Sans Pro",sans-serif;margin:0}a{text-decoration:none;color:#000}\
-.wrapper{background-color:'+theme+';height:100vh;width:100vw;text-align:center}\
+.wrapper{background-image:url("desktop.png");background-size:cover;height:100vh;width:100vw;text-align:center}\
 .header{font-family:"Source Sans Pro ",sans-serif;\
 font-size:5em;font-weight:700;margin-bottom:20px}.description{color:#585858;\
 font-weight:700;width:80vw;margin:0 auto}.con{position:absolute;top:50%;transform:translateY(-50%);width:100vw;text-align:center}\
