@@ -20,7 +20,7 @@ module.exports = {
     var download = require('./downloadmodule');
     function down(){
       console.log(logSymbols.success,chalk.green('downloading images...'));
-    download("https://raw.githubusercontent.com/makoteq/SHAPE/master/Desktop.png", "./"+name+" portfolio/Desktop.png", function (state) {
+    download("https://raw.githubusercontent.com/makoteq/SHAPE/master/img/Desktop.png", "./"+name+" portfolio/Desktop.png", function (state) {
           }, function (response) {
             
           }, function (error) {
