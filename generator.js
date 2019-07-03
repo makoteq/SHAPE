@@ -17,15 +17,15 @@ module.exports = {
     let isgithub = 'none';
     let githublink = 'https://github.com/';
 
-    var download = require('./download');
+    var download = require('./downloadmodule');
     function down(){
     download("https://raw.githubusercontent.com/makoteq/SHAPE/master/Desktop.png", "./"+name+" portfolio/Desktop.png", function (state) {
           }, function (response) {
-            console.log(chalk.green('downloading images...'));
+            console.log(logSymbols.success,chalk.green('downloading images...'));
           }, function (error) {
-              console.log(chalk.red("Check your internet connnection"));
-          }, function () {
-            
+              console.log(logSymbols.error,chalk.red("Check your internet connnection"));
+          }, function (end) {
+            console.log(logSymbols.success,chalk.green('success'));
           });
         }
 
@@ -54,7 +54,7 @@ module.exports = {
       output: process.stdout
     });
     rl.question(chalk.green(logSymbols.warning, 'Please enter your name: '), (answer1) => {
-      rl.question(chalk.green('Please type something about you : '), (answer2) => {
+      rl.question(chalk.green(logSymbols.warning,'Please write something about you : '), (answer2) => {
         rl.question(chalk.green(logSymbols.warning, 'Do you want add Facebook? [if yes then write link to your account!]\n-'), (isFb) => {
           if (isFb != '') {
             isfacebook = '';

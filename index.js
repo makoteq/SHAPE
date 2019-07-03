@@ -2,10 +2,6 @@
 
 const chalk = require('chalk');
 const logSymbols = require('log-symbols');
-
-
-var fs = require('fs'),
-request = require('request');
 const generator = require('./generator.js');
 let myArgs = process.argv.slice(2);
 if (myArgs[0] == 'create') {
