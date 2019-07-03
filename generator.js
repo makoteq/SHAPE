@@ -19,9 +19,10 @@ module.exports = {
 
     var download = require('./downloadmodule');
     function down(){
+      console.log(logSymbols.success,chalk.green('downloading images...'));
     download("https://raw.githubusercontent.com/makoteq/SHAPE/master/Desktop.png", "./"+name+" portfolio/Desktop.png", function (state) {
           }, function (response) {
-            console.log(logSymbols.success,chalk.green('downloading images...'));
+            
           }, function (error) {
               console.log(logSymbols.error,chalk.red("Check your internet connnection"));
           }, function (end) {
