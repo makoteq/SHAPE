@@ -1,25 +1,24 @@
 
-# SHAPE
+# SHAPE :computer:
 
 Shape is a cli node.js tool. With Shape you can create a simple and elegant portfolio .
-## Example 
+## Example :floppy_disk:
 ![screen](https://raw.githubusercontent.com/makoteq/SHAPE/master/scree.PNG)
-## Installation
+## Installation :clap:
 
 Use the npm to install shape.
 
 ```
-coming soon 
+npm i shapegenerator
 ```
 
-## Usage
-
-coming soon :poop:
-
-## TODO
-`publish on npm`
-`update readme`
-`add few new features`
-
-## License
+## Usage :joy_cat:
+type:
+```
+shape create
+```
+to start using
+## Check this out:japanese_goblin:
+https://www.npmjs.com/package/shapegenerator
+## License :dog:
 MIT
