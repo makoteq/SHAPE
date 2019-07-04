@@ -3,7 +3,7 @@
 
 Shape is a cli node.js tool. With Shape you can create a simple and elegant portfolio .
 ## Example :floppy_disk:
-![screen](https://raw.githubusercontent.com/makoteq/SHAPE/master/scree.PNG)
+![screen](https://raw.githubusercontent.com/makoteq/SHAPE/master/screen.png)
 ## Installation :clap:
 
 Use the npm to install shape.
