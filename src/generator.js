@@ -40,6 +40,10 @@ module.exports = {
               if (err) throw err;
               console.log(logSymbols.success, 'Saved! Your site has been saved in' + chalk.magenta(' ' + name + ' portfolio') + ' directory  ( ͡° ͜ʖ ͡°)');
             });
+            fs.writeFile('./' + name + ' portfolio/README.txt', 'This page was created using SHAPE. Check this out: https://github.com/makoteq/SHAPE',
+            function (err) {
+              if (err) throw err;
+            });
         }
       });
 
