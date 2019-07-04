@@ -1,7 +1,7 @@
 {
   "name": "shapegenerator",
-  "version": "1.0.1",
-  "description": "portfolio template cli",
+  "version": "1.0.3",
+  "description": "portfolio generator cli",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,5 +17,9 @@
     "mkdirp": "^0.5.1",
     "request": "^2.88.0",
     "request-progress": "^3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/makoteq/SHAPE"
   }
 }
