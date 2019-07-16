@@ -9,7 +9,7 @@ Shape is a cli node.js tool. With Shape you can create a simple and elegant port
 Use the npm to install shape.
 
 ```
-npm i shapegenerator
+npm i shapegenerator -g
 ```
 
 ## Usage :joy_cat:
