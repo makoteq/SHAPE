@@ -18,6 +18,8 @@ type:
 shape create
 ```
 to start using
+## Build using :milky_way:
+Electron
 ## Check this out:japanese_goblin:
 https://www.npmjs.com/package/shapegenerator
 ## License :dog:
